@@ -1,0 +1,173 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.profile-icon {
+    color: #333;
+}
+
+h5.card-title {
+    font-weight: bold;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+}
+
+button.btn-dark {
+    width: 100%;
+    font-weight: bold;
+}
+
+button.btn-outline-secondary {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+button.btn-outline-secondary i {
+    margin-right: 5px;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pemilih-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    position: relative;
+}
+
+.pemilih-number {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.pemilih-id {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.pemilih-status {
+    font-size: 0.9em;
+    color: #444;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sync-button {
+    background-color: #ff6b33;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.biodata-detail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: 80%;
+    max-width: 400px;
+}
+
+.biodata-detail h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.biodata-detail table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.biodata-detail td {
+    padding: 8px 0;
+}
+
+.biodata-detail td:first-child {
+    font-weight: bold;
+    width: 40%;
+}
+
+.close-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 8px 20px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #555;
+}
+
+/* Responsive styling */
+@media (max-width: 480px) {
+    .biodata-detail {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .sync-button, .edit-button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
